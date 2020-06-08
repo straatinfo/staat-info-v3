@@ -94,6 +94,7 @@ class UserService {
   Future<dynamic> getUser({String query, String userId}) async {
     String queryToUse;
     QueryOptions optionToUse;
+    dynamic user;
 
     if (query == null || query == '') {
       queryToUse = _userQuery;
@@ -113,10 +114,9 @@ class UserService {
     QueryResult result = await _client.query(optionToUse);
     if (result.hasException) {
       print(result.exception.toString());
-      return [];
     }
 
-    List<dynamic> data = result.data['user'] as List<dynamic>;
-    return data;
+    user = result.data['user'] as dynamic;
+    return user;
   }
 }
