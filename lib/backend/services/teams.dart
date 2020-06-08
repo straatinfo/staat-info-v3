@@ -66,6 +66,7 @@ class TeamService {
   Future<dynamic> getTeam({String query, String teamId}) async {
     String queryToUse;
     QueryOptions optionToUse;
+    dynamic team;
 
     if (query == null || query == '') {
       queryToUse = _teamQuery;
@@ -85,10 +86,9 @@ class TeamService {
     QueryResult result = await _client.query(optionToUse);
     if (result.hasException) {
       print(result.exception.toString());
-      return [];
     }
 
-    List<dynamic> data = result.data['team'] as List<dynamic>;
-    return data;
+    team = result.data['team'] as dynamic;
+    return team;
   }
 }

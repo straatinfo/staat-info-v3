@@ -1,12 +1,12 @@
 import 'package:graphql/client.dart';
+import 'package:straatinfoflutter/services/backend_constants.dart';
 
 class GraphqlserviceClient {
   GraphQLClient _client;
 
   GraphqlserviceClient({String jwt}) {
     HttpLink _httpLink = HttpLink(
-      uri:
-          'https://straat-backend-v3.herokuapp.com/graphql', // should be an env var
+      uri: graphqlUrl, // should be an env var
     );
 
     AuthLink _authLink = AuthLink(
