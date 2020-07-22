@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="Flutter Plugins" type="FlutterPluginsLibraryType">
+    <CLASSES>
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/phone_number-0.6.2+3" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/device_info-0.4.2+4" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_keyboard_visibility-2.0.0" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/geolocator-5.3.2+2" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/permission_handler-5.0.1+1" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/location_permissions-3.0.0+1" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/image_picker-0.6.7+3" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/speech_bubble-0.0.6" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_plugin_android_lifecycle-1.0.8" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/google_api_availability-2.0.4" />
+      <root url="file://C:/src/flutter/.pub-cache/hosted/pub.dartlang.org/google_maps_flutter-0.5.28+1" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
